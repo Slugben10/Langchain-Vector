@@ -9,7 +9,7 @@ from langchain.text_splitter import CharacterTextSplitter
 import openai
 
 # OpenAI API kulcs közvetlen beállítása
-os.environ['OPENAI_API_KEY'] = 'sk-PH7IzQpiAMGRPyKqz728dmXEXHa1fUMAQXinQTBr52T3BlbkFJ2dDGhagm4lpzGwlKnG3Wn2E0j12eEZS3LGBYfC5B0A'
+os.environ['OPENAI_API_KEY'] = 'openai.api_key '
 
 # Setup Flask app
 app = Flask(__name__)
